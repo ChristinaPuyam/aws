@@ -1,11 +1,76 @@
+</html>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Activity 1 - Static Website</title>
+    <meta charset="UTF-8">
+    <title>Activity 1 – Static Website on AWS S3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+        }
+        p, li {
+            font-size: 16px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 6px;
+        }
+    </style>
 </head>
-<body style="text-align:center; font-family:Arial;">
-    <h1>Static Web Page</h1>
-    <p>Deployed using AWS S3 Storage</p>
-    <p>Activity - 1</p>
+<body>
+
+<div class="container">
+
+    <h1>Activity – 1</h1>
+    <p style="text-align:center;">
+        Deployment of Static Website using AWS S3 Storage
+    </p>
+
+    <h2>Aim</h2>
+    <p>
+        To create a static web page and deploy it using Amazon Web Services
+        Simple Storage Service (AWS S3).
+    </p>
+
+    <h2>Steps Followed</h2>
+    <ol>
+        <li>Created a static web page using HTML.</li>
+        <li>Logged in to the AWS Management Console.</li>
+        <li>Opened the Amazon S3 service.</li>
+        <li>Created a new S3 bucket with a unique bucket name.</li>
+        <li>Disabled "Block all public access" for the bucket.</li>
+        <li>Uploaded the <b>index.html</b> file into the S3 bucket.</li>
+        <li>Enabled <b>Static Website Hosting</b> from the bucket properties.</li>
+        <li>Set <b>index.html</b> as the index document.</li>
+        <li>Added a bucket policy to allow public read access.</li>
+        <li>Copied the static website endpoint URL.</li>
+        <li>Opened the URL in a browser to verify deployment.</li>
+    </ol>
+
+    <h2>Result</h2>
+    <p>
+        The static website was successfully created and deployed using
+        AWS S3 storage and accessed through a public URL.
+    </p>
+
+    <h2>Status</h2>
+    <p><b>Website is Live and Deployed Successfully.</b></p>
+
+</div>
+
 </body>
 </html>
+
